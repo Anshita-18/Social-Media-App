@@ -1,0 +1,6 @@
+const data = [
+    {name:"anshi",email:"jsjmxks"},
+    {name:"anshic",email:"jsjmxks"},
+    {name:"anshi",email:"jsjmxks"}
+]
+module.exports=data;
