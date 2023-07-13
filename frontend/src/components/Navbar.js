@@ -106,13 +106,18 @@ export default function Navbar({ login }) {
   };
   return (
     <div className="navbar">
+     
       <img
         id = "insta-logo"
         src={logo}
         alt=""
         onClick={() => navigate("/")}
         style={{ cursor: "pointer" }}
+        width={10}
+        height={50}
+        
       />
+      <h3>Linkify</h3>
       <ul className="nav-menu">{loginStatus()}</ul>
       <ul className="nav-mobile">{loginStatusMobile()}</ul>
     </div>
